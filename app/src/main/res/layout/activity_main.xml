@@ -24,13 +24,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.datafrominternet.MainActivity">
 
-    <EditText
-        android:id="@+id/et_search_box"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter a query, then click Search"
-        android:textSize="22sp" />
-
     <TextView
         android:id="@+id/tv_url_display"
         android:layout_width="wrap_content"
@@ -51,4 +44,12 @@
             android:text="Make a search!"
             android:textSize="18sp" />
     </ScrollView>
+
+    <EditText
+        android:id="@+id/et_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Enter a query, then click Search"
+        android:textSize="22sp"/>
 </LinearLayout>
