@@ -50,7 +50,7 @@ public class VisualizerActivity extends AppCompatActivity {
         mVisualizerView.setShowBass(true);
         mVisualizerView.setShowMid(true);
         mVisualizerView.setShowTreble(true);
-        mVisualizerView.setMinSizeScale(1);
+        mVisualizerView.setMinSizeScale(3);
         mVisualizerView.setColor(getString(R.string.pref_color_red_value));
     }
 
