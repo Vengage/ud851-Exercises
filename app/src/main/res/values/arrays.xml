@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_color_entries">
+        <item name="pref_color_red_entry">@string/pref_color_red_value</item>
+        <item name="pref_color_blue_entry">@string/pref_color_blue_value</item>
+        <item name="pref_color_green_entry">@string/pref_color_green_value</item>
+    </array>
+
+    <array name="pref_color_entry_values">
+        <item name="pref_color_red_entry_value">@string/pref_color_red_value</item>
+        <item name="pref_color_blue_entry_value">@string/pref_color_blue_value</item>
+        <item name="pref_color_green_entry_value">@string/pref_color_green_value</item>
+    </array>
+</resources>
