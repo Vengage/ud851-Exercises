@@ -4,11 +4,12 @@ import android.provider.BaseColumns;
 
 import com.example.android.waitlist.data.WaitlistContract;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
+import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
